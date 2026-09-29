@@ -1,0 +1,15 @@
+{
+    "name": "derti/plateforme",
+    "autoload": {
+        "psr-4": {
+            "Derti\\Plateforme\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leméne Cédric",
+            "email": "81035746+Yana-Shrom@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}

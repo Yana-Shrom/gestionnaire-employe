@@ -1,0 +1,43 @@
+
+# Composer
+/vendor/
+
+# Variables d'environnement
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Configuration locale
+/.idea/
+/.vscode/*
+!/.vscode/extensions.json
+
+# Logs et cache
+/logs/
+/cache/
+/tmp/
+*.log
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# PHPUnit
+/.phpunit.cache/
+/.phpunit.result.cache
+/coverage/
+
+# Données sensibles
+/config/secrets/
+/storage/private/
+
+# Fichiers uploadés
+/public/uploads/
+
+# Dépendances frontend (si nécessaire)
+/node_modules/
+/dist/
